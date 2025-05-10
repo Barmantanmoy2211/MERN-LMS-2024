@@ -26,7 +26,7 @@ app.use(express.json());
 
 //database connection
 mongoose
-  .connect(`mongodb+srv://helloai:1234@cluster0.qhhimas.mongodb.net/lms`, {
+  .connect(``, {
     useNewUrlParser: true,
        useUnifiedTopology: true
   })
